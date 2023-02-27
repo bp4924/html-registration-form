@@ -17,4 +17,9 @@ body {
 label {
   display: grid;
   padding: 2px;
+  margin: 10px 0 5px 0;
+}
+
+input::placeholder {
+  font-style: italic;
 }
