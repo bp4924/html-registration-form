@@ -23,3 +23,23 @@ label {
 input::placeholder {
   font-style: italic;
 }
+
+input:focus {
+  background-color: lightcyan;
+  transform: scale(1.1);
+}
+
+button {
+  width: 170px;
+  border-radius: 3px;
+  background-color: beige;
+  padding: 3px;
+  margin: 3px 0;
+}
+
+button:hover {
+  background-color: lemonchiffon;
+  font-weight: bolder;
+  transform: scale(1.1) translateX(8px);
+  cursor: pointer;
+}
